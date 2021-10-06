@@ -8,7 +8,7 @@ const morgan = require('morgan');
 const productRouter = require('./api/routes/product');
 const orderRouter = require('./api/routes/order');
 const userRouter = require('./api/routes/user')
-mongoose.connect('mongodb+srv://asad-baig:asadbaig123@cluster0.xmfi0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('url',
 () =>{
     console.log('connected')
 })
